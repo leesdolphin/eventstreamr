@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2014, 9:39:16 PM
+    Author     : lee
+*/
+/* line 19, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000319}}
+.good-bg {
+  background-color: #00cc22;
+  color: #ffffff;
+}
+/* line 23, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000323}}
+.good-fg {
+  background-color: #ffffff;
+  color: #00cc22;
+}
+/* line 27, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000327}}
+.bad-bg {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+/* line 31, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000331}}
+.bad-fg {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+/* line 35, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000335}}
+.box-border {
+  box-sizing: border-box;
+}
+/* line 38, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000338}}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* line 43, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000343}}
+#main-panel {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 21px;
+}
+/* line 49, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000349}}
+#main-panel #front-panel {
+  text-align: center;
+  font-weight: 900;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* line 54, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000354}}
+#main-panel #front-panel.good {
+  background-color: #00cc22;
+  color: #ffffff;
+}
+/* line 57, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000357}}
+#main-panel #front-panel.bad {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+/* line 62, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000362}}
+#main-panel.hide-overview #front-panel {
+  font-size: 68px;
+  min-height: 100%;
+}
+/* line 66, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000366}}
+#main-panel.hide-overview #overview {
+  display: none;
+  overflow: hidden;
+}
+/* line 72, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000372}}
+#main-panel.show-overview #front-panel {
+  vertical-align: middle;
+  font-size: 28px;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 78, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000378}}
+#main-panel.show-overview #overview {
+  overflow: scroll;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 40px;
+  bottom: 0px;
+  background-color: #808080;
+}
+/* line 90, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\0000390}}
+#main-footer {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 21px;
+  line-height: 21px;
+  bottom: 0px;
+  border-top: 1px solid #808080;
+  text-align: center;
+  background-color: white;
+  color: #808080;
+  font-size: 16.8px;
+  vertical-align: middle;
+}
+/* line 103, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\00003103}}
+#main-footer #footer-text,
+#main-footer #footer-arrow-icon {
+  height: 19px;
+  line-height: 19px;
+  display: inline-block;
+}
+/* line 109, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\00003109}}
+#main-footer.show-more #footer-arrow-icon #down-arrow {
+  display: none;
+}
+/* line 112, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\00003112}}
+#main-footer.show-more #footer-arrow-icon #up-arrow {
+  display: inline-block;
+}
+/* line 117, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\00003117}}
+#main-footer.show-less #footer-arrow-icon #down-arrow {
+  display: inline-block;
+}
+/* line 120, /Users/lee/NetBeansProjects/HTML5Application1/public_html/less/main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lee\/NetBeansProjects\/HTML5Application1\/public_html\/less\/main\.less}line{font-family:\00003120}}
+#main-footer.show-less #footer-arrow-icon #up-arrow {
+  display: none;
+}
